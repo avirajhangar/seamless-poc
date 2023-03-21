@@ -1,0 +1,6 @@
+{
+  "serve": {
+    "integrationType": "indom",
+    "port": 80
+  }
+}

@@ -1,0 +1,57 @@
+$mb-color-highlight: #00adef;
+$mb-color-highlight--hover: #0088c6;
+$mb-color-highlight--pressed: #009ed8;
+$mb-color-highlight--outline-dark: #4a90e2;
+$mb-color-highlight--outline-light: #57cdf5;
+$mb-color-white: #fff;
+$mb-color-smoke: #f8f8f8;
+$mb-color-moon: #f4f4f4;
+$mb-color-asphalt: #e5e5e5;
+$mb-color-silver: #bfbfbf;
+$mb-color-noble: #999;
+$mb-color-boulder: #767676;
+$mb-color-gunmetal: #666;
+$mb-color-obsidian: #333;
+$mb-color-mineshaft: #262626;
+$mb-color-black: #000;
+$mb-color-ok: #008a00;
+$mb-color-caution: #ffbf00;
+$mb-color-error: #e1292b;
+$mb-color-co2a: #009e46;
+$mb-color-co2b: #67b633;
+$mb-color-co2c: #d2d700;
+$mb-color-co2d: #ffed00;
+$mb-color-co2e: #fdc602;
+$mb-color-co2f: #f17e04;
+$mb-color-co2g: #eb2220;
+$mb-grid-gutter-width: 1rem;
+$mb-grid-content-width: 90%;
+$mb-spacing-3xs: .25rem;
+$mb-spacing-xxs: .5rem;
+$mb-spacing-xs: 1rem;
+$mb-spacing-s: 1.5rem;
+$mb-spacing-m: 2rem;
+$mb-spacing-l: 3rem;
+$mb-spacing-xl: 4rem;
+$mb-spacing-xxl: 5rem;
+$mb-shadow-level-1: 0 0 2px 0 rgba(0,0,0,0.1),0 2px 4px 0 rgba(0,0,0,0.1);
+$mb-shadow-level-2: 0 0 2px 0 rgba(0,0,0,0.1),0 4px 8px 0 rgba(0,0,0,0.1);
+$mb-shadow-level-3: 0 0 4px 0 rgba(0,0,0,0.1),0 16px 24px 0 rgba(0,0,0,0.1);
+$mb-cta-bg:rgba(255, 255, 255, 0.15);
+/* Color Spectrum */
+:root {
+  --lightish-black: #262626;
+  --lightish-white: #f8f8f8;
+
+  --lightish-purple: #b746f6;
+    --heliotrope: #fe44ea;
+    --rosy-pink: #ff637c;
+    --orangish: #fe8350;
+    --pale-orange: #ffb951;
+    --sandy-yellow: #feef70;
+    --light-yellowish-green: #d3ff88;
+    --light-bluish-green: #69fe96;
+    --tiffany-blue: #6dfddb;
+    --sky: #7ee0ff;
+    --cornflower: #7280fe;
+  }

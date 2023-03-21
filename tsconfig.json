@@ -1,0 +1,14 @@
+{
+  "extends": "@seamless/config/tsconfig",
+  "compilerOptions": {
+    "baseUrl": ".",
+  },
+  "exclude": [
+    "node_modules",
+    "packages",
+    "docs"
+  ],
+  "include": [
+    "**/*.ts",
+  ]
+}

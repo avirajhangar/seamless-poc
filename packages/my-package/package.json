@@ -1,0 +1,57 @@
+{
+  "name": "@seamless-app/my-package",
+  "version": "0.0.1-SNAPSHOT",
+  "description": "vvy",
+  "scripts": {
+    "npmPublish": "npm publish",
+    "build:wc": "vite build --config vite.config.ts",
+    "build": "npm run build:wc",
+    "component:docs": "seamless vue comp-docs --from src/App.vue --to src/App.md --basedir src --title 'ukscc-my-package'",
+    "test": "vitest run --coverage",
+    "docs": "compodoc",
+    "docs:serve": "compodoc -s",
+    "dev": "vite --config vite.config.dev.ts",
+    "lint": "eslint --ext .js,.vue --fix src",
+    "precommit:lint": "lint-staged"
+  },
+  "dependencies": {
+    "@seamless/router": "5.0.1",
+    "@seamless/store": "5.0.1",
+    "vue": "2.7.10",
+    "vue-class-component": "7.2.6"
+  },
+  "publishConfig": {
+    "scope": "@seamless-app"
+  },
+  "devDependencies": {
+    "@seamless/eslint-config": "5.0.1",
+    "@seamless/eslint-plugin-vue": "5.0.1",
+    "@seamless/config": "5.0.1",
+    "@seamless/logger": "5.0.1",
+    "@seamless/stylelint-config": "5.0.1",
+    "@seamless/vite-plugin-vue-wc-css": "0.2.0",
+    "@compodoc/compodoc": "1.1.19",
+    "lint-staged": "12.3.5",
+    "@typescript-eslint/eslint-plugin": "4.25.0",
+    "@typescript-eslint/parser": "4.25.0",
+    "@vue/cli-plugin-babel": "5.0.8",
+    "@vue/web-component-wrapper": "1.3.0",
+    "@vue/eslint-config-prettier": "6.0.0",
+    "@vue/eslint-config-typescript": "7.0.0",
+    "@vue/test-utils": "1.0.3",
+    "vue-template-compiler": "2.7.10",
+    "compression-webpack-plugin": "6.1.1",
+    "eslint": "7.32.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-vue": "7.20.0",
+    "sass": "1.49.9",
+    "prettier": "2.5.1",
+    "typescript": "4.6.2",
+    "vite": "2.9.9",
+    "vite-plugin-vue2": "2.0.1",
+    "vite-plugin-eslint": "1.6.1",
+    "vitest": "0.14.1",
+    "c8": "7.11.3",
+    "jsdom": "20.0.0"
+  }
+}

@@ -1,0 +1,26 @@
+<html>
+<head>
+    <script type="module" src="image-sequence.js"></script>
+    <style>
+        body,html{
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            margin: 0; padding: 0;
+        }
+    </style>
+</head>
+<body>
+  <image-sequence></image-sequence>
+</body>
+
+<script>
+	const app = document.querySelector('image-sequence');
+	import('./image-sequence.js').then(() => {
+        app.filename = "149_606";
+        app.folder = "sl_500_amg_line_2314732_gb6/exteriors";
+        app.filetype = ".jpg";
+        app.load();
+	});
+</script>
+</html>

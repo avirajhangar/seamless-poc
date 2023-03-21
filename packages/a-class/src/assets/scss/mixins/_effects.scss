@@ -1,0 +1,17 @@
+
+@mixin underline($width, $offset: -20px, $color: $blue,$thickness: 2px) {
+    
+    position: relative;
+    width: 100%;
+    &:before {
+        content: "";
+        position: absolute;
+        width: $width;
+        height: $thickness;
+        bottom: $offset;
+        left: 0;
+        background: $color;
+        visibility: visible;
+        border-radius: 5px;
+      }
+}

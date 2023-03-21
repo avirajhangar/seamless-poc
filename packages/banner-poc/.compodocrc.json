@@ -1,0 +1,16 @@
+{
+  "disableGraph": true,
+  "disableDomTree": true,
+  "disableTemplateTab": true,
+  "disableLifeCycleHooks": true,
+  "tsconfig": "./tsconfig.json",
+  "name": "banner-poc Documentation",
+  "output": "../../docs/packages/banner-poc/latest",
+  "hideGenerator": true,
+  "theme": "material",
+  "includes": "includes-docs",
+  "toggleMenuItems": [
+    "additionalPages",
+    "classes"
+  ]
+}

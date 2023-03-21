@@ -1,0 +1,16 @@
+{
+  "disableGraph": true,
+  "disableDomTree": true,
+  "disableTemplateTab": true,
+  "disableLifeCycleHooks": true,
+  "tsconfig": "./tsconfig.json",
+  "name": "my-package Documentation",
+  "output": "../../docs/packages/my-package/latest",
+  "hideGenerator": true,
+  "theme": "material",
+  "includes": "includes-docs",
+  "toggleMenuItems": [
+    "additionalPages",
+    "classes"
+  ]
+}

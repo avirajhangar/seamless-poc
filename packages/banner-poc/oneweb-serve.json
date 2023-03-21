@@ -1,0 +1,282 @@
+{
+  "aemComponentConfig": {
+    "dialog": {
+      "sampletext": "gesf"
+    }
+  },
+  "wkos": {
+    "dealerContext": {
+      "legalName": "TEST",
+      "outletId": "TESTID",
+      "companyId": "TESTCOMPANYID",
+      "allOutletId": "OUTLETID1,OUTLETID2,OUTLETID3",
+      "legacyId": "LEGACYID1",
+      "email": "test@mock-aem.com",
+      "phone": "+351123456789",
+      "website": "www.mercedes-benz.com",
+      "applications": {
+        "carConfigurator": "https://www.mercedes-benz.de/passengercars/mercedes-benz-cars/car-configurator.html",
+        "vehicleSearch": "https://www.mercedes-benz.de/passengercars/vehicle-search.html",
+        "appointmentBooking": "https://www.mercedes-benz.de/passengercars/services-accessories/service-booking/oab.module.html",
+        "testDrive": "https://www.mercedes-benz.de/passengercars/mercedes-benz-cars/online-testdrive.html",
+        "modelOverview": "https://www.mercedes-benz.de/passengercars.html",
+        "vehicleSearchVans": "https://vans.mercedes-benz.net",
+        "vansConfigurator": "https://voc.i.daimler.com/voc/",
+        "modelOverviewVans": "https://www.mercedes-benz.ch/vans/",
+        "onlineStore": "https://shop.mercedes-benz.com"
+      },
+      "dealerOrgName": "Test Dealer Org Name"
+    },
+    "loginData": {
+      "isUserLoggedIn": false,
+      "userData": [
+        {
+          "key": "ow_aem_jwe",
+          "value": "sometoken"
+        },
+        {
+          "key": "ow_aem_phone",
+          "value": "+8618411632865"
+        },
+        {
+          "key": "ow_aem_email",
+          "value": "graceevans.act@gmail.com"
+        },
+        {
+          "key": "ow_aem_jws",
+          "value": "someothertoken"
+        },
+        {
+          "key": "ow_aem_lastname",
+          "value": "Evans"
+        },
+        {
+          "key": "ow_aem_name",
+          "value": "Grace Evans"
+        },
+        {
+          "key": "ow_aem_gender",
+          "value": "Male"
+        },
+        {
+          "key": "ow_aem_firstname",
+          "value": "Grace"
+        },
+        {
+          "key": "ow_aem_roles",
+          "value": "user,editor"
+        },
+        {
+          "key": "ow_aem_sub",
+          "value": "PXd9z80k1gzJ0elAq2pe6_3IZh8rR3J6rLIakywtiDk"
+        },
+        {
+          "key": "ow_aem_wkoUserData",
+          "string": true,
+          "value": {
+            "salutation": "MS",
+            "title": "",
+            "namePrefix": "",
+            "firstName": "Grace",
+            "middleInitial": "",
+            "lastName": "Evans",
+            "lastName1": "Evans",
+            "lastName2": "",
+            "email": "graceevans.act@gmail.com",
+            "landlinePhone": "+391521231231251",
+            "mobilePhone": "+8618411632865",
+            "birthdate": "1981-02-15",
+            "preferredLanguageCode": "en-GB",
+            "countryCode": "DE",
+            "state": "",
+            "province": "",
+            "city": "",
+            "zipCode": "",
+            "street": "",
+            "streetType": "",
+            "houseNo": "",
+            "houseName": "",
+            "floorNo": "",
+            "doorNo": "",
+            "addressLine1": "",
+            "addressLine2": "",
+            "addressLine3": "",
+            "accountCountryCode": "DE"
+          }
+        },
+        {
+          "key": "ow_aem_userAssociatedVehicles",
+          "string": true,
+          "value": [
+            {
+              "userId": "5f09e9db0568408e854026ea38be8dab",
+              "finOrVin": "WDBJF83J3YX040726",
+              "vehicleConnectivityCapability": "NONE",
+              "modelDescription": "E 430 4MATIC Saloon",
+              "confirmed": false,
+              "imageUrl": "",
+              "modelId": "2100831",
+              "seriesId": "210",
+              "preferredServiceDealerId": "",
+              "mileage": {
+                "value": "",
+                "unit": ""
+              },
+              "fuelLevel": {
+                "value": "",
+                "unit": ""
+              },
+              "trustLevel": "1",
+              "userRole": "",
+              "vehicleOwner": true,
+              "vehicleUsageCode": "LEGACY_CAR",
+              "complete": true,
+              "pinRequired": false,
+              "ntg": "",
+              "ps": []
+            },
+            {
+              "userId": "5f09e9db0568408e854026ea38be8dab",
+              "finOrVin": "WDBEA26DXNB775506",
+              "vehicleConnectivityCapability": "NONE",
+              "modelDescription": "260 E",
+              "confirmed": false,
+              "imageUrl": "",
+              "modelId": "1240261",
+              "seriesId": "124",
+              "preferredServiceDealerId": "",
+              "mileage": {
+                "value": "",
+                "unit": ""
+              },
+              "fuelLevel": {
+                "value": "",
+                "unit": ""
+              },
+              "trustLevel": "1",
+              "userRole": "",
+              "vehicleOwner": true,
+              "vehicleUsageCode": "LEGACY_CAR",
+              "complete": true,
+              "pinRequired": false,
+              "ntg": "",
+              "ps": []
+            },
+            {
+              "userId": "5f09e9db0568408e854026ea38be8dab",
+              "finOrVin": "WDD2183941A192414",
+              "vehicleConnectivityCapability": "NONE",
+              "modelDescription": "CLS 350 d 4MATIC Coupé",
+              "confirmed": false,
+              "imageUrl": "",
+              "modelId": "2183941",
+              "seriesId": "218",
+              "brand": "mb",
+              "preferredServiceDealerId": "",
+              "mileage": {
+                "value": "",
+                "unit": ""
+              },
+              "fuelLevel": {
+                "value": "",
+                "unit": ""
+              },
+              "trustLevel": "1",
+              "userRole": "VEHICLE_OWNER",
+              "vehicleOwner": true,
+              "vehicleUsageCode": "LEGACY_CAR",
+              "complete": true,
+              "pinRequired": false,
+              "ntg": "",
+              "ps": []
+            }
+          ]
+        },
+        {
+          "string": true,
+          "key": "ow_aem_selectedAssociatedVehicle",
+          "value": {
+            "finOrVin": "WDBJF83J3YX040726"
+          }
+        },
+        {
+          "string": true,
+          "key": "ow_aem_userAssociatedDealers",
+          "value": {
+            "WDBFA61E7MF025385": [],
+            "WDD2183941A192414": [],
+            "WDBEA26DXNB775506": [],
+            "WDBCA39E7LA497488": [],
+            "WDBLJ65G91F165609": [],
+            "WDD2050776L047036": [],
+            "WDD2050041F004163": [],
+            "WDD1770511Z000102": [],
+            "WDD2231631Z000045": [],
+            "WDBFA76F0WF155423": [],
+            "WDBJF83J3YX040726": [
+              {
+                "address": {
+                  "street": "test",
+                  "zipCode": "test",
+                  "city": "test",
+                  "countryIsoCode": "test"
+                },
+                "communication": {
+                  "general": {
+                    "fax": "test",
+                    "email": "test",
+                    "phone": "test",
+                    "website": "test"
+                  }
+                },
+                "dealerType": "SALES",
+                "legalName": "test",
+                "outletId": "test"
+              },
+              {
+                "address": {
+                  "street": "test",
+                  "zipCode": "test",
+                  "city": "test",
+                  "countryIsoCode": "test"
+                },
+                "communication": {
+                  "general": {
+                    "fax": "test",
+                    "email": "test",
+                    "phone": "test",
+                    "website": "test"
+                  }
+                },
+                "dealerType": "SERVICE",
+                "legalName": "test",
+                "outletId": "test"
+              }
+            ]
+          }
+        },
+        {
+          "key": "ow_aem_enableDataUsages",
+          "value": "true"
+        },
+        {
+          "key": "ow_aem_dataUsageScopes",
+          "string": true,
+          "value": [
+            {
+              "name": "test_dataUsageScopes",
+              "agreed": true
+            },
+            {
+              "name": "test_dataUsageScopes_false",
+              "agreed": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "workbenchVersion": "4.3.0",
+  "locale": "de-DE",
+  "runMode": "AUTHOR"
+}

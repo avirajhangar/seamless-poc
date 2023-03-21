@@ -1,0 +1,49 @@
+// Max width media query
+@mixin mqMax($breakpoint) {
+  @if map-get($breakpoints, $breakpoint) {
+    @media (max-width: map-get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  }
+}
+
+// Max width media query
+@mixin mqMaxHeight($breakpoint) {
+  @if map-get($breakpoints, $breakpoint) {
+    @media (max-height: map-get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  }
+}
+
+// Min width media query
+@mixin mqMin($breakpoint) {
+  @if map-get($breakpoints, $breakpoint) {
+    @media (min-width: map-get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  }
+}
+
+// Max width media query
+@mixin mqMinHeight($breakpoint) {
+  @if map-get($breakpoints, $breakpoint) {
+    @media (min-height: map-get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  }
+}
+
+// iPad Pro 12.9
+@mixin iPadProPortrait() {
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    @content;
+  }
+}
+
+// Touch devices
+@mixin touchDevices() {
+  @media only screen and (hover:none) {
+    @content;
+  }
+}

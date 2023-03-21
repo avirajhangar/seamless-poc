@@ -1,0 +1,75 @@
+$sm-min-width: 319px;
+$sm-max-width: 767.984px;
+$md-min-width: 768px;
+$md-max-width: 1023.984px;
+$lg-min-width: 1024px;
+$lg-max-width: 1279.984px;
+$xl-min-width: 1280px;
+
+@mixin mobile-landscape() {
+  @media screen and (min-width: $sm-min-width) and (max-width: $sm-max-width) and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin mobile-small-landscape() {
+  @media screen and (max-width: $sm-max-width) {
+    @content;
+  }
+}
+
+@mixin mobile-medium-landscape() {
+  @media screen and (min-width: $md-min-width) and (max-width: 812px) and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin mobile-portrait() {
+  @media screen and (min-width: $sm-min-width) and (max-width: $sm-max-width) and (orientation: portrait) {
+    @content;
+  }
+}
+
+@mixin mobile-small-portrait() {
+  @media screen and (max-width: $sm-max-width) and (orientation: portrait) {
+    @content;
+  }
+}
+
+@mixin mobile() {
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)  and (pointer: touch) {
+    @content;
+  }
+}
+
+@mixin desktop() {
+  @media (min-width: 1024px) and (min-height: 700px) and (pointer: fine) {
+    @content;
+  }
+}
+
+@mixin desktopDevice() {
+  @media (hover: hover) and (pointer: fine) {
+    @content;
+  }
+}
+
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+  &:before {
+    display: block;
+    content: '';
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+ 
+  > .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: solid 2px #ff0000;
+  }
+}
+

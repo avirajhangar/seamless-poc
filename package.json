@@ -1,0 +1,45 @@
+{
+  "name": "seamless-app",
+  "private": true,
+  "engines": {
+    "node": "16.15.0",
+    "npm": "8.5.5"
+  },
+  "workspaces": [
+    "packages\\banner-poc",
+    "packages\\a-class",
+    "packages\\my-package"
+  ],
+  "gitHooks": {
+    "commit-msg": "seamless bin check-commit-msg",
+    "pre-commit": "npm run precommit:lint && npm run precommit:test"
+  },
+  "publishConfig": {
+    "scope": "@seamless-app"
+  },
+  "scripts": {
+    "test": "npm run test -ws --if-present",
+    "build": "npm run build -ws --if-present",
+    "docs:serve": "docsify serve ./docs",
+    "docs:publish": "gh-pages -m \"[ci skip] Updates\" -d docs",
+    "root:lint": "eslint ./ --ext .js,.ts --fix",
+    "precommit:lint": "npm run root:lint && npm run -ws --if-present precommit:lint --exclude-dependents",
+    "precommit:test": "npm run -ws --if-present test && seamless bin test-coverage-update",
+    "allure:build": "allure generate --clean",
+    "allure:serve": "allure serve",
+    "login": "npm login --registry=https://nexus.cicd.intra.oneweb.mercedes-benz.io/repository/npm-general/",
+    "seamless": "seamless"
+  },
+  "devDependencies": {
+    "@seamless/eslint-config": "5.0.1",
+    "@seamless/cli": "5.0.1",
+    "@seamless/config": "5.0.1",
+    "@seamless/hygen": "5.0.1",
+    "docsify-cli": "4.4.0",
+    "eslint": "7.32.0",
+    "gh-pages": "3.2.3",
+    "prettier": "2.5.1",
+    "typescript": "4.6.2",
+    "yorkie": "2.0.0"
+  }
+}

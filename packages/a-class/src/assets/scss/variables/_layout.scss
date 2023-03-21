@@ -1,0 +1,10 @@
+
+.container{
+    margin: 0 1vw 0 1vw ;
+    width: 98vw;
+    box-sizing : border-box;
+    @include mqMax(m-b) {
+      margin: 0 1vw 0 1vw ;
+      width: 98vw;
+    }
+}

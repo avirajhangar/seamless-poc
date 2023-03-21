@@ -1,0 +1,4 @@
+#!/usr/bin/env groovy
+
+@Library('paas-shared-lib-js') _
+seamlessWebMono.runRelease(targetBranchDefault: 'master')

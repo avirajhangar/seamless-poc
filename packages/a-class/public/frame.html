@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>EQS Tour</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <link href="app/favicon.ico" type="image/x-icon" rel="shortcut icon">
+
+  <style type="text/css">
+    html,
+    body {
+      min-height: 100%;
+    }
+
+    body {
+      position: fixed;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      padding: 0px;
+      padding: 0;
+      margin: 0;
+      min-height: 100%;
+
+      overscroll-behavior: none;
+
+      background-size: cover;
+      background-position-x: center;
+      background-position-y: center;
+
+      animation: darken steps(100) 1s 1;
+      animation-fill-mode: forwards;
+    }
+
+    #mainframe {
+      overflow: hidden;
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+
+      border: solid 1px #111111;
+      filter: drop-shadow(1px 6px 8px rgba(0, 0, 0, 0.6));
+      background: rgb(0, 0, 0, 1);
+    }
+
+    .container {
+      position: fixed;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      padding: 0px;
+      padding: 0;
+      margin: 0;
+      overscroll-behavior: none;
+      padding: 10px;
+    }
+
+    @keyframes darken {
+      0% {
+        box-shadow: inset 0 0 0 150vw rgba(0, 0, 0, 0);
+      }
+
+
+      100% {
+        box-shadow: inset 0 0 0 150vw rgba(0, 0, 0, 0.75);
+
+      }
+    }
+  </style>
+
+</head>
+
+
+<body background="">
+  <div class="container">
+    <div class="frame">
+      <iframe id="mainframe" src="https://eqstour-mb-dev.publicis-tech.io/" width="1366" height="768"></iframe>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
+
+<script>
+  window.addEventListener('resize', function () {
+    updateFrameSize();
+  }, true);
+
+  function clamp(num, min, max) {
+    return num <= min
+      ? min
+      : num >= max
+        ? max
+        : num
+  }
+
+  function updateFrameSize() {
+    //clamp(window.innerWidth - 80, 200, 800);
+    var w = window.innerWidth - 280;
+    var h = window.innerHeight - 280;
+    var frame = document.getElementById('mainframe');
+    var scaleX = w / 1920;
+    var scaleY = h / 1080;
+    var scale = scaleX;
+    if ((scale * 1080) > h) {
+      scale = scaleY;
+    }
+    var left = 130 + (w - (scale * 1920)) / 2;
+    var top = 130 + (h - (scale * 1080)) / 2;
+    frame.style.left = left + "px";
+    frame.style.top = top + "px";
+    frame.style.webkitTransform = "scale(" + scale + ")";
+    frame.style.webkitTransformOrigin = "left top";
+  }
+  updateFrameSize();
+</script>

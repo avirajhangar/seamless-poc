@@ -1,0 +1,401 @@
+{
+
+  "carConfiguratorsAngles" : [
+    {
+      "label" : "front",
+      "active" : "front-white.png",
+      "inactive" : "front-black.png"
+    },
+    {
+      "label" : "back",
+      "active" : "back-white.png",
+      "inactive" : "back-black.png"
+    },
+    {
+      "label" : "side",
+      "active" : "side-white.png",
+      "inactive" : "side-black.png"
+    }
+  ],
+  "carConfiguratorsModels" : [
+    {
+      "name" : "A Class Hatchback"
+    }, 
+    {
+      "name" : "EQA Suvs"
+    }, 
+    {
+      "name" : "EQE Saloon"
+    }
+  ],
+  "carConfigurators": {
+    "a-class-hatchback": [
+      {
+        "label": "silver",
+        "colorHex": "#75767d",
+        "offerLink": "https://www.mercedes-benz.co.uk/passengercars/mercedes-benz-cars/car-configurator.html/configuration/CCci/GB/en/en_GB__1770842_GBA__AJ-053_AU-101_GC-429_LE-R_LU-775_MJ-803_PC-P44-P49-P54-P59-PBG-PDB-PSI-U59-U62_PS-012%23_SA-00U-01U-05B-14U-16U-17U-20U-213-218-235-243-252-258-25R-270-286-287-294-310-345-351-355-362-365-367-400-428-440-458-461-475-500-504-51U-521-52H-537-543-551-580-608-631-666-677-72B-73B-79B-7U2-840-859-873-877-882-885-889-897-927-964-968-986-989-B01-B51-B59-L3E-R01-U01-U10-U12-U22-U54-U60_SC-0B2-0S3-0U1-163-1B3-2U1-2U8-3S6-4S6-502-51B-6P5-6S8-7B4-8U6-8U8-98B-998-9U8-B09-B10-K13-K31-K45-PVI-PXV-R7D-V50/paints"
+      },
+      {
+        "label": "black",
+        "colorHex": "#0f1317",
+        "offerLink": "https://www.mercedes-benz.co.uk/passengercars/mercedes-benz-cars/car-configurator.html/configuration/CCci/GB/en/en_GB__1770842_GBA__AJ-053_AU-101_GC-429_LE-R_LU-191_MJ-803_PC-P44-P49-P54-P59-PBG-PDB-PSI-U59-U62_PS-012%23_SA-00U-01U-05B-14U-16U-17U-20U-213-218-235-243-252-258-25R-270-286-287-294-310-345-351-355-362-365-367-400-428-440-458-461-475-500-504-51U-521-52H-537-543-551-580-608-631-666-677-72B-73B-79B-7U2-840-859-873-877-882-885-889-897-927-964-968-986-989-B01-B51-B59-L3E-R01-U01-U10-U12-U22-U54-U60_SC-0B2-0S3-0U1-163-1B3-2U1-2U8-3S6-4S6-502-51B-6P5-6S8-7B4-8U6-8U8-98B-998-9U8-B09-B10-K13-K31-K45-PVI-PXV-R7D-V50/paints"
+      },
+      {
+        "label": "red",
+        "colorHex": "#a81f28",
+        "offerLink": "https://www.mercedes-benz.co.uk/passengercars/mercedes-benz-cars/car-configurator.html/configuration/CCci/GB/en/en_GB__1770842_GBA__AJ-053_AU-101_GC-429_LE-R_LU-993_MJ-803_PC-P44-P49-P54-P59-PBG-PDB-PSI-U59-U62_PS-012%23_SA-00U-01U-05B-14U-16U-17U-20U-213-218-235-243-252-258-25R-270-286-287-294-310-345-351-355-362-365-367-400-428-440-458-461-475-500-504-51U-521-52H-537-543-551-580-608-631-666-677-72B-73B-79B-7U2-840-859-873-877-882-885-889-897-927-964-968-986-989-B01-B51-B59-L3E-R01-U01-U10-U12-U22-U54-U60_SC-0B2-0S3-0U1-163-1B3-2U1-2U8-3S6-4S6-502-51B-6P5-6S8-7B4-8U6-8U8-98B-998-9U8-B09-B10-K13-K31-K45-PVI-PXV-R7D-V50/paints"
+      }
+    ],
+    "eqa-suvs": [
+      {
+        "label": "silver",
+        "colorHex": "#75767d",
+        "offerLink": "https://www.mercedes-benz.co.uk/passengercars/mercedes-benz-cars/car-configurator.html/configuration/CCci/GB/en/en_GB__2437022_GB6__AJ-053_AU-651_LE-R_LU-775_MJ-803_PC-431-904-950-P44-P49-P54-PDA-PYA-PYH-PYM-U59-U62_SA-05B-13U-14U-16U-17U-20U-218-234-235-243-252-258-261-270-273-286-287-294-310-345-351-355-362-365-367-39U-400-440-446-458-461-475-500-504-51U-537-543-548-551-581-586-608-631-63B-666-677-70B-725-73B-772-79B-7U4-82B-83B-840-859-873-877-882-885-890-942-968-986-989-9B6-B13-B51-B53-B59-H44-L5C-R01-RQQ-U01-U10-U22-U26-U35-U45-U55-U60_SC-0B2-0S3-1B3-2U1-2U8-3U6-502-51B-5V4-6P5-6S8-7B4-7S3-8B6-8U6-8U8-998-9U8-BAF-EMD-K13-PXV-R7H/paints"
+      },
+      {
+        "label": "black",
+        "colorHex": "#0f1317",
+        "offerLink": "https://www.mercedes-benz.co.uk/passengercars/mercedes-benz-cars/car-configurator.html/configuration/CCci/GB/en/en_GB__2437022_GB6__AJ-053_AU-651_LE-R_LU-191_MJ-803_PC-431-904-950-P44-P49-P54-PDA-PYA-PYH-PYM-U59-U62_SA-05B-13U-14U-16U-17U-20U-218-234-235-243-252-258-261-270-273-286-287-294-310-345-351-355-362-365-367-39U-400-440-446-458-461-475-500-504-51U-537-543-548-551-581-586-608-631-63B-666-677-70B-725-73B-772-79B-7U4-82B-83B-840-859-873-877-882-885-890-942-968-986-989-9B6-B13-B51-B53-B59-H44-L5C-R01-RQQ-U01-U10-U22-U26-U35-U45-U55-U60_SC-0B2-0S3-1B3-2U1-2U8-3U6-502-51B-5V4-6P5-6S8-7B4-7S3-8B6-8U6-8U8-998-9U8-BAF-EMD-K13-PXV-R7H/paints"
+      },
+      {
+        "label": "red",
+        "colorHex": "#a81f28",
+        "offerLink": "https://www.mercedes-benz.co.uk/passengercars/mercedes-benz-cars/car-configurator.html/configuration/CCci/GB/en/en_GB__2437022_GB6__AJ-053_AU-651_LE-R_LU-993_MJ-803_PC-431-904-950-P44-P49-P54-PDA-PYA-PYH-PYM-U59-U62_SA-05B-13U-14U-16U-17U-20U-218-234-235-243-252-258-261-270-273-286-287-294-310-345-351-355-362-365-367-39U-400-440-446-458-461-475-500-504-51U-537-543-548-551-581-586-608-631-63B-666-677-70B-725-73B-772-79B-7U4-82B-83B-840-859-873-877-882-885-890-942-968-986-989-9B6-B13-B51-B53-B59-H44-L5C-R01-RQQ-U01-U10-U22-U26-U35-U45-U55-U60_SC-0B2-0S3-1B3-2U1-2U8-3U6-502-51B-5V4-6P5-6S8-7B4-7S3-8B6-8U6-8U8-998-9U8-BAF-EMD-K13-PXV-R7H/paints"
+      }
+    ],
+    "eqe-saloon": [
+      {
+        "label": "silver",
+        "colorHex": "#75767d",
+        "offerLink": "https://www.mercedes-benz.co.uk/passengercars/mercedes-benz-cars/car-configurator.html/configuration/CCci/GB/en/en_GB__2951112_GBX__AJ-053_AU-801_LE-R_LU-922_MJ-803_PC-P14-P15-P20-P21-P49-P53-P82-PAF-PAI-PAX-PBG-PBH-PBP-PDD-PYB-PYD-PYO_PS-012%23-S89%23_SA-01U-05B-13U-14U-16U-17U-201-20U-215-21U-233-235-241-242-243-249-262-266-272-275-27U-287-290-292-294-299-309-30U-317-321-325-32U-34U-351-355-365-367-384-39U-401-413-428-42U-436-43U-443-444-461-464-475-489-49U-500-501-503-507-513-51U-534-537-546-551-581-587-596-597-5B1-5U4-628-63B-661-666-70B-72B-79B-7U2-810-81R-82B-83B-840-868-872-875-876-878-881-882-885-889-891-897-914-968-986-989-9B6-B51-B53-B59-H39-K32-K33-K34-L3E-R01-R06-U01-U10-U12-U19-U22-U25-U60_SC-0B4-0S3-0U1-121-1B3-2S0-2U8-31U-39V-502-51B-6P5-6S3-7B4-7S3-8B4-8U4-8U8-998-AN0-BAB-EMQ-K12-K40-K41-R8Q/paints"
+      },
+      {
+        "label": "black",
+        "colorHex": "#0f1317",
+        "offerLink": "https://www.mercedes-benz.co.uk/passengercars/mercedes-benz-cars/car-configurator.html/configuration/CCci/GB/en/en_GB__2951112_GBX__AJ-053_AU-801_LE-R_LU-197_MJ-803_PC-P14-P15-P20-P21-P49-P53-P82-PAF-PAI-PAX-PBG-PBH-PBP-PDD-PYB-PYD-PYO_PS-012%23-S89%23_SA-01U-05B-13U-14U-16U-17U-201-20U-215-21U-233-235-241-242-243-249-262-266-272-275-27U-287-290-292-294-299-309-30U-317-321-325-32U-34U-351-355-365-367-384-39U-401-413-428-42U-436-43U-443-444-461-464-475-489-49U-500-501-503-507-513-51U-534-537-546-551-581-587-596-597-5B1-5U4-628-63B-661-666-70B-72B-79B-7U2-810-81R-82B-83B-840-868-872-875-876-878-881-882-885-889-891-897-914-968-986-989-9B6-B51-B53-B59-H39-K32-K33-K34-L3E-R01-R06-U01-U10-U12-U19-U22-U25-U60_SC-0B4-0S3-0U1-121-1B3-2S0-2U8-31U-39V-502-51B-6P5-6S3-7B4-7S3-8B4-8U4-8U8-998-AN0-BAB-EMQ-K12-K40-K41-R8Q/paints"
+      },
+      {
+        "label": "red",
+        "colorHex": "#a81f28",
+        "offerLink": "https://www.mercedes-benz.co.uk/passengercars/mercedes-benz-cars/car-configurator.html/configuration/CCci/GB/en/en_GB__2951112_GBX__AJ-053_AU-801_LE-R_LU-993_MJ-803_PC-P14-P15-P20-P21-P49-P53-P82-PAF-PAI-PAX-PBG-PBH-PBP-PDD-PYB-PYD-PYO_PS-012%23-S89%23_SA-01U-05B-13U-14U-16U-17U-201-20U-215-21U-233-235-241-242-243-249-262-266-272-275-27U-287-290-292-294-299-309-30U-317-321-325-32U-34U-351-355-365-367-384-39U-401-413-428-42U-436-43U-443-444-461-464-475-489-49U-500-501-503-507-513-51U-534-537-546-551-581-587-596-597-5B1-5U4-628-63B-661-666-70B-72B-79B-7U2-810-81R-82B-83B-840-868-872-875-876-878-881-882-885-889-891-897-914-968-986-989-9B6-B51-B53-B59-H39-K32-K33-K34-L3E-R01-R06-U01-U10-U12-U19-U22-U25-U60_SC-0B4-0S3-0U1-121-1B3-2S0-2U8-31U-39V-502-51B-6P5-6S3-7B4-7S3-8B4-8U4-8U8-998-AN0-BAB-EMQ-K12-K40-K41-R8Q/paints"
+      },
+      {
+        "label": "blue",
+        "colorHex": "#273051",
+        "offerLink": "https://www.mercedes-benz.co.uk/passengercars/mercedes-benz-cars/car-configurator.html/configuration/CCci/GB/en/en_GB__2951112_GBX__AJ-053_AU-801_LE-R_LU-842_MJ-803_PC-P14-P15-P20-P21-P49-P53-P82-PAF-PAI-PAX-PBG-PBH-PBP-PDD-PYB-PYD-PYO_PS-012%23-S89%23_SA-01U-05B-13U-14U-16U-17U-201-20U-215-21U-233-235-241-242-243-249-262-266-272-275-27U-287-290-292-294-299-309-30U-317-321-325-32U-34U-351-355-365-367-384-39U-401-413-428-42U-436-43U-443-444-461-464-475-489-49U-500-501-503-507-513-51U-534-537-546-551-581-587-596-597-5B1-5U4-628-63B-661-666-70B-72B-79B-7U2-810-81R-82B-83B-840-868-872-875-876-878-881-882-885-889-891-897-914-968-986-989-9B6-B51-B53-B59-H39-K32-K33-K34-L3E-R01-R06-U01-U10-U12-U19-U22-U25-U60_SC-0B4-0S3-0U1-121-1B3-2S0-2U8-31U-39V-502-51B-6P5-6S3-7B4-7S3-8B4-8U4-8U8-998-AN0-BAB-EMQ-K12-K40-K41-R8Q/paints"
+      }
+    ]
+  },
+  "leathers": [
+    {
+      "name": "Upholstery leather Lugano neva black (XYZ)",
+      "code": "W177",
+      "images":["background.jpg"]
+    },
+    {
+      "name": "Upholstery leather Lugano macchiato beige / space gray (205A)",
+      "code": "805A",
+      "images":["background.jpg"]
+    }
+  ],
+  "urls":{
+    "callback":{
+      "label":"Call me back", 
+      "url":"https://www.mercedes-benz.co.uk/404.html",
+      "tag":"request-callback"
+    },
+    "testdrive":{
+      "label":"Book a test drive", 
+      "url":"https://www.mercedes-benz.co.uk/passengercars/mercedes-benz-cars/online-testdrive.html#/dealer?modelSeries=V297&modelType=MERCEDES_EQ&group=alternative-fuel&subgroup=see-all",
+      "tag":"test-drive"
+    },
+    "shop":{
+      "label":"Find your A class", 
+      "url":"https://shop.mercedes-benz.co.uk/new/results?ModelId=106",
+      "tag":"link-to-shop"
+    },
+    "shopnow":{
+      "label":"Shop now",
+      "url":"https://shop.mercedes-benz.co.uk/new/results?ModelId=106",
+      "tag":"link-to-shop"
+    }
+  },
+  "ui":{
+    "disclaimer":"UK spec may vary.",
+    "scroll":"Scroll Down",
+    "rotate-messsage":"To enjoy the full experience, <br /> rotate your screen to landscape <br /> and turn off screen lock.",
+    "turn-on-motion":"Turn on 360<br> motion",
+    "the-new-a-class": "The new A-Class",
+    "loading": "Loading",
+    "scroll-to-view": "Scroll to view.",
+    "unsupported-webgl": "Your browser does not support WebGL",
+    "exterior-features": "Exterior Features", 
+    "interior-features": "Interior Features",
+    "model": "Model",
+    "viewOffers": "View offers"
+  },
+  "ctas":{
+    "callback":"https://www.mercedes-benz.co.uk/404.html",
+    "showroom":"https://www.mercedes-benz.co.uk/404.html"
+  },
+  "sections":[
+    {
+      "type":"section",
+      "images": [],
+      "title": "Exterior",
+      "headline": "",
+      "description": "",
+      "legal": ""
+    },
+
+    {
+      "type":"section",
+      "images": [],
+      "title": "Interior",
+      "headline": "",
+      "description": "",
+      "legal": ""
+    },
+    {
+      "type":"section",
+      "images": [],
+      "title": "Build Your Car",
+      "headline": "",
+      "description": "",
+      "legal": ""
+    }
+
+  ],
+  "eqs":{
+    "section-dark":{
+      "title":"THIS IS FOR TECHNOLOGY<BR/> THAT LEADS THE WAY.",
+      "subtitle1":"",
+      "scrollMessage":"Scroll Down"
+      },
+    "section-intro":{
+        "title":"Class for every day",
+      "subtitle1":"John, discover the new A-Class"
+      },
+    "section-exterior":{
+      "title":"Explore the bold, reshaped exterior.",
+      "subtitle1":""
+      },
+    "section-interior":{
+      "title":"See the new, luxurious interior.",
+      "subtitle1":""
+      },
+    "section-car-configurator":{
+      "title":"Find the A-Class that is perfect for you.",
+      "subtitle1":""
+      },
+    "discover-more": "Discover more"
+  },
+  "hotspots": [
+    {
+      "id": "interior-1",
+      "type":"interior",
+      "vector": {
+        "x": 2000,
+        "y": -525,
+        "z": -1650
+      },
+
+      "camera": {
+        "x": -40.411396577785275,
+        "y": 18.47582131822721,
+        "z": 22.92511125970616,
+        "rotation": {
+          "x": -0.6783407024258896,
+          "y": -0.9411372385077568,
+          "z": -0.5773362431880718
+        },
+        "fov": 60
+      },
+      "camera-portrait": {
+        "x": -32.09159759953115,
+        "y": 30.205029452953895,
+        "z": 23.617434921598857,
+        "rotation": {
+          "x": -0.9071873081250578,
+          "y": -0.6968852197466504,
+          "z": -0.6873305106541068
+        },
+        "fov": 75
+      },
+      "hyperscreen":false,
+      "title": "Sportier steering wheel.",
+      "headline": "Sportier steering wheel.",
+      "images": ["interior/4548213_W177_perf_OW_14-beauty-min.jpg"],
+      "description": "For an effortless drive, the new A-Class comes with the new generation of\nMercedes-Benz steering wheels. It features a compact, sporty design and\nshortcut controls to many functions.",
+      "legal": ""
+
+    },
+
+    {
+      "id": "interior-2",
+      "type":"interior",
+      "vector": {
+        "x": 1414.25,
+        "y": -261.9,
+        "z": -41.35
+      },
+
+      "camera": {
+        "x": -1.9481929542222203,
+        "y": 27.521949222580734,
+        "z": 26.409029804269785,
+        "rotation":{
+          "x": -0.8060312299938176,
+          "y":-0.051031576112215746,
+          "z":-0.053109060579193866
+        },
+        "fov":75
+      },
+      "camera-portrait": {
+        "x": -2.5003772107306004,
+        "y": 26.571365692507257,
+        "z": 27.320333801751225,
+        "rotation":{
+          "x": -0.7715014056015672,
+          "y":-0.0655140949622566,
+          "z":-0.06358666228425516
+        },
+        "fov":60
+      },
+      "title": "The latest intuitive MBUX.",
+      "headline": "The latest intuitive MBUX.",
+      "legal": "",
+      "images": ["interior/ECONYL_FLOOR-MATS.jpg"],
+      "description": "With a touch of the screen or a simple ‘Hey Mercedes’, the MBUX system lets you\ncontrol nearly all the technology inside the new A-Class. It uses A.I. to learn your\nbehaviour and make helpful suggestions as you drive. \n"
+    },
+    {
+      "id": "interior-3",
+      "type":"interior",
+      "vector": {
+        "x": 885.05,
+        "y": -482.5,
+        "z": 120
+      },
+
+      "camera": {
+        "x": -31.437619537849987,
+        "y": 4.337639621451506,
+        "z": 21.24972847609603,
+        "rotation":{
+          "x": -0.20136049406719858,
+          "y":-0.9669002576428188,
+          "z":-0.16646787340258848
+        },
+        "fov": 75
+      },
+      "camera-portrait": {
+        "x": -31.437619537849987,
+        "y": 4.337639621451506,
+        "z": 21.24972847609603,
+        "rotation":{
+          "x": -0.20136049406719858,
+          "y":-0.9669002576428188,
+          "z":-0.16646787340258848
+        },
+        "fov": 75
+      },
+      "title": "Large widescreen displays.",
+      "headline": "Large widescreen displays.",
+      "legal": "",
+      "images": ["interior/4542585_W177_perf_OW_21-5B-min.jpg"],
+      "description": "The impressive cockpit of the new A-Class features two 10.25-inch widescreen\ndisplays that appear to float before the driver, providing touch access to\neverything you need."
+    }
+  ],
+
+  "exterior": [ 
+    {
+      "id": 2,
+      "type":"exterior",
+      "startFrame": 28,
+      "icon": "blue",
+      "direction": 1,
+      "images": ["exterior/AERODYNAMIC_EXTERIOR.jpg"],
+      "title": "New wraparound rear lights.",
+      "headline": "New wraparound rear lights.",
+      "description": "From the rear, the new A-Class strikes a powerful stance with the redesigned new rear lights that wrap seamlessly around the body.",
+      "positions": [
+        [
+          { "x": 1070,"y":490},{ "x": 1075,"y":490},{ "x": 1080,"y":490},{ "x": 1083,"y":488},{ "x": 1087,"y":485},{ "x": 1090,"y":482},{ "x": 1095,"y":480}
+        ]
+      ]
+    },
+  
+    {
+      "id": 4,
+      "type":"exterior",
+      "startFrame": 43,
+      "icon": "blue",
+      "direction": 0,
+      "images": ["exterior/INTELLIGENT_ENERGY_RECOVERY.jpg"],
+      "title": "Sportier grille.",
+      "headline": "New Sportier grille.",
+      "description": "The forward-sloping bonnet with powerdomes ends at the steep front of the vehicle which boasts a new sharknose, star pattern grille. ",
+      "positions": [
+        [
+          { "x": 695,"y":630},{ "x": 683,"y":638},{ "x": 675,"y":648},{ "x": 665,"y":655},{ "x": 657,"y":663},{ "x": 647,"y":673},{ "x": 640,"y":683},{ "x": 630,"y":693}
+        ]
+      ]
+    },
+
+    {
+      "id": 5,
+      "type":"exterior",
+      "startFrame": 95,
+      "icon": "blue",
+      "direction": 1,
+      "images": ["exterior/LED_LIGHT_BAR.jpg"],
+      "title": "High performance LED headlamps.",
+      "headline": "High performance LED headlamps.",
+      "description": "The muscular bonnet leads the eye towards the bold new LED front headlamps, providing increased illumination and more safety at night.",
+      "positions": [
+        [
+          { "x": 785,"y":798},{ "x": 782,"y":795},{ "x": 780,"y":785},{ "x": 785,"y":765},{ "x": 795,"y":745},{ "x": 805,"y":735},{ "x": 815,"y":723},{ "x": 825,"y":715},{ "x": 830,"y":708},{ "x": 832,"y":705},{ "x": 835,"y":700}
+        ]
+        ]
+    }
+    ,
+
+    {
+      "id": 7,
+      "type":"exterior",
+      "startFrame": 53,
+      "icon": "blue",
+      "direction": 0,
+      "images": ["exterior/SUSTAINABLE_BATTERY_MATERIAL.jpg"],
+      "title": "Striking 17-inch alloy wheels.",
+      "headline": "Striking 17-inch alloy wheels.",
+      "description": "The distinctive new 17-inch alloy wheels are positioned flush with the outside of the vehicle and lend the A-Class its sporty character.",
+      "positions": [
+        [
+          { "x": 890,"y":533},{ "x": 888,"y":530},{ "x": 885,"y":527},{ "x": 881,"y":525},{ "x": 856,"y":510},{ "x": 846,"y":506}
+
+        ]
+      ]
+    }
+    ,
+
+    {
+      "id": 9,
+      "type":"exterior",
+      "startFrame": 73,
+      "icon": "blue",
+      "direction": 1,
+      "images": ["exterior/SUSTAINABLE_PRODUCTION.jpg"],
+      "title": "A range of hybrid engines.",
+      "headline": "A range of hybrid options.",
+      "description": "The new A-Class is available as a mild hybrid drive and Plug-in Hybrid, which now delivers a greater range than ever and shorter charging times too.",
+      "positions": [
+        [
+          { "x": 1064,"y":608},{ "x": 1066,"y":608},{ "x": 1068,"y":608},{ "x": 1069,"y":608},{ "x": 1073,"y":608},{ "x": 1071,"y":608},{ "x": 1073,"y":608},{ "x": 1074,"y":608},{ "x": 1077,"y":608},{ "x": 1080,"y":608}
+        ]
+      ]
+    }
+
+  ]
+}
+

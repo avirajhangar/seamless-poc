@@ -1,0 +1,7 @@
+# File required to implement default reviewers
+# Reference:
+# - https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners#codeowners-syntax
+# - https://help.github.com/en/github/administering-a-repository/enabling-required-reviews-for-pull-requests
+# Members of this team will added as default reviewers to all PRs
+# *      @your-org/your-codeowners-team
+# change and uncomment previous line, remove this comment afterwards :)

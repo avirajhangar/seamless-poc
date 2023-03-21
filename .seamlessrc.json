@@ -1,0 +1,51 @@
+{
+  "scope": "@seamless-app",
+  "prefix": "acpoc",
+  "name": "seamless-app",
+  "version": "0.0.1-SNAPSHOT",
+  "tenantId": "ukscc",
+  "monorepo": {
+    "generator": "5.0.1"
+  },
+  "packages": [
+    {
+      "name": "banner-poc",
+      "generator": {
+        "version": "5.0.1",
+        "type": "webc-vue"
+      },
+      "publish": {
+        "npm": true,
+        "oneweb": true
+      },
+      "cicd": {
+        "onewebDir": "oneweb-dist"
+      }
+    },
+    {
+      "name": "a-class",
+      "generator": {
+        "version": "5.0.1",
+        "type": "webc-vue"
+      },
+      "publish": {
+        "npm": true,
+        "oneweb": true
+      },
+      "cicd": {
+        "onewebDir": "oneweb-dist"
+      }
+    },
+    {
+      "name": "my-package",
+      "generator": {
+        "version": "5.0.1",
+        "type": "webc-vue"
+      },
+      "publish": {
+        "npm": true,
+        "oneweb": false
+      }
+    }
+  ]
+}

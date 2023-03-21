@@ -1,0 +1,6 @@
+#!/usr/bin/env groovy
+@Library('paas-shared-lib-js') _
+
+seamlessWebMono.runDeploy(
+	akamai: [ akamaiCpCode: "908372,908368,908371,908374,590164"]
+)

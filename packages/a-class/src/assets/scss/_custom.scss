@@ -1,0 +1,181 @@
+@import 'variables/colours';
+@import 'mixins/effects';
+@import 'variables/breakpoints';
+@import 'mixins/responsive';
+@import 'variables/layout';
+@import 'mixins';
+@import 'fonts';
+@import 'vue-transitions';
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+html,
+body {
+  scroll-behavior: auto;
+  height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  // background-color: rgb(10, 33, 82);  
+  background-color: rgb(33, 33, 33); 
+}
+
+body {
+ &.body--loading{
+   height: 100vh;
+   overflow: hidden;
+ }
+ &.body--fillscreen{
+   height: 100vh;
+   height: calc(var(--vh, 1vh) * 100);
+   overflow: hidden;
+ }
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+canvas {
+  outline: none !important;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.hilight {
+  color: #e5007d;
+}
+
+
+.btn {
+  font-size: 14px;
+  background-color: transparent;
+  color: white;
+  padding: 4px 14px;
+  margin: 0px 10px 0px 0px !important;
+  border: solid white 1px;
+  cursor: pointer;
+  width: fit-content;
+  transition: background-color 0.25s linear;
+  outline: none;
+  pointer-events: all;
+  height: 36px;
+  span {
+    transition: opacity 0.25s linear;
+  }
+
+  @include mobile-small-landscape() {
+    margin: auto;
+  }
+  
+  @media screen and (max-width: 480px) {
+    font-size: 11px;
+    padding: 0px 8px;
+    margin: auto;
+  }
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+.btn:active {
+  color: $mb-color-white;
+  border: solid 1px $mb-color-noble;
+}
+
+.btn:disabled,
+.btn[disabled] {
+  background-color: $mb-color-noble;
+  color: $mb-color-silver;
+}
+.btn:disabled:hover,
+.btn[disabled]:hover {
+  background-color: $mb-color-noble;
+  color: $mb-color-silver;
+}
+
+
+.btnLight {
+  border: 1px solid black !important;
+  color: #000000 !important;
+  background: rgba(204, 204, 204, 0.8) !important;
+}
+
+.btnTransparent {
+  border: 1px solid black !important;
+  color: #000000 !important;
+  background: transparent !important;
+}
+
+.btnDark {
+  border: 1px solid black !important;
+  background: #000000 !important;
+  color: #ffffff !important;
+}
+.overlay {
+  position: absolute;
+  z-index: 50;
+  background: rgba(0, 0, 0, 1);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  pointer-events: none;
+  color: #ffffff;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgba($color: #000000, $alpha: 1.0);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba($color: #000000, $alpha: 1.0) transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}

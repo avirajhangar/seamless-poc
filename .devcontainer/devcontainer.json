@@ -1,0 +1,30 @@
+// See https://git.daimler.com/dh-io-mbmxp/oneweb-dev-environment
+{
+  "name": "Seamless App DevEnvironment",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": {
+      "vscode": "true",
+      // seamless version to install
+      "VERSION": "latest"
+    }
+  },
+  // expose ports on host, vue and stencil default dev ports
+  "appPort": [3000, 3333, 8080],
+  "settings": {
+      // set VScode color theme to show that it's a container
+    "workbench.colorTheme": "Cobalt2",
+      // use zsh as default terminal
+    "terminal.integrated.shell.linux": "/bin/zsh"
+  },
+  // VScode extensions
+  "extensions": [
+    "wesbos.theme-cobalt2",
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig"
+  ],
+  "containerEnv": {},
+  // speed up oh-my-zsh in docker container https://stackoverflow.com/questions/12765344/oh-my-zsh-slow-but-only-for-certain-git-repo
+  // Install seamless from local source
+  "postCreateCommand": "git status && zsh"
+}

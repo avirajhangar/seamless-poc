@@ -1,0 +1,546 @@
+{
+  "leathers": [
+    {
+      "name": "Upholstery leather Lugano macchiato beige / space gray (205A)",
+      "code": "805A",
+      "images":["background.jpg","background-hyperscreen.jpg"]
+    },
+    {
+      "name": "Upholstery leather Lugano neva gray / balao brown (229A)",
+      "code": "229A",
+      "images":["background.jpg","background-hyperscreen.jpg"]
+    },
+    {
+      "name": "Upholstery leather nappa black / balao brown (811A)",
+      "code": "111A",
+      "images":["background.jpg","background-hyperscreen.jpg"]
+    }
+  ],
+  "ui":{
+    "scroll":"Défiler vers le bas",
+    "callback":"Rappelle-moi",
+    "showroom":"Trouvez votre EQS",
+    "rotate-messsage":"Pour profiter pleinement de l'expérience, <br /> faites pivoter votre écran en mode paysage <br /> et désactivez le verrouillage de l'écran."
+  },
+  "sections":[
+    {
+      "type":"section",
+      "images": [],
+      "title": "Concevoir",
+      "headline": "",
+      "description": "",
+      "legal": ""
+    },
+
+    {
+      "type":"section",
+      "images": [],
+      "title": "Confort",
+      "headline": "",
+      "description": "",
+      "legal": ""
+    },
+    {
+      "type":"section",
+      "images": [],
+      "title": "La technologie",
+      "headline": "",
+      "description": "",
+      "legal": ""
+    }, {
+      "type":"section",
+      "images": [],
+      "title": "Vivre",
+      "headline": "",
+      "description": "",
+      "legal": ""
+    }
+
+  ],
+  "eqs":{
+    "section-dark":{
+      "title":"C'EST POUR LA TECHNOLOGIE QUI OUVRE LA VOIE",
+      "subtitle1":"",
+      "scrollMessage":"Scroll Down"
+      },
+    "section-intro":{
+      "title":"LE NOUVEAU EQS. <br />CECI EST POUR VOUS",
+      "subtitle1":"Le futur du luxe électrique est arrivé."
+      },
+      "section-exterior":{
+        "title":"C'EST POUR LE DESIGN À <br />SON PLUS CAPTIVANT.",
+        "subtitle1":"Faites défiler pour faire pivoter la voiture et cliquez sur les points chauds pour en savoir plus."
+        },
+    "section-interior":{
+      "title":"C'EST POUR LE NIVEAU SUIVANT<br />LUXE ÉLECTRIQUE",
+      "subtitle1":"Faites défiler pour explorer l'intérieur et cliquez sur les points chauds pour en découvrir plus."
+      },
+    "section-endframe":{
+      "title":"CECI EST POUR VOUS",
+      "subtitle1":""
+      },
+      "section-sound":{
+        "title":"POUR UNE EXPÉRIENCE SONORE <br/> O VOUS DÉCIDEZ",
+        "subtitle1":"",
+        "themeSounds": {
+          "RoaringPulse": {
+            "title": "Flux vif",
+            "image": "vivid-flux.jpg",
+            "audio": {
+              "Acceleration": "SoundExperience_RoaringPulse_Acceleration.mp3",
+              "Aura": "SoundExperience_RoaringPulse_Aura.mp3",
+              "Idle": "SoundExperience_RoaringPulse_Idle.mp3",
+              "StartUp": "SoundExperience_RoaringPulse_StartUp.mp3",
+              "Welcome": "SoundExperience_RoaringPulse_Welcome.mp3"
+            }
+          },
+          "SilverWaves": {
+            "title": "Vagues d'argent",
+            "image": "silver-waves.jpg",
+            "audio": {
+              "Acceleration": "SoundExperience_SilverWaves_Acceleration.mp3",
+              "Aura": "SoundExperience_SilverWaves_Aura.mp3",
+              "Idle": "SoundExperience_SilverWaves_Idle.mp3",
+              "StartUp": "SoundExperience_SilverWaves_Startup.mp3",
+              "Welcome": "SoundExperience_SilverWaves_Welcome.mp3"
+            }
+          },
+          "VividFlux": {
+            "title": "Pouls rugissant",
+            "image": "roaring-pulse.jpg",
+            "audio": {
+              "Acceleration": "SoundExperience_VividFlux_Acceleration.mp3",
+              "Aura": "SoundExperience_VividFlux_Aura.mp3",
+              "Idle": "SoundExperience_VividFlux_Idle.mp3",
+              "StartUp": "SoundExperience_VividFlux_Startup.mp3",
+              "Welcome": "SoundExperience_VividFlux_Welcome.mp3"
+            }
+          }
+        }
+      }
+    },
+    "hotspots": [
+      {
+        "id": "interior-1",
+        "type":"interior",
+        "vector": {
+          "x": 1061.85,
+          "y": -129.25,
+          "z": -570.0
+        },
+  
+        "camera": {
+          "x": -40.411396577785275,
+          "y": 18.47582131822721,
+          "z": 22.92511125970616,
+          "rotation": {
+            "x": -0.6783407024258896,
+            "y": -0.9411372385077568,
+            "z": -0.5773362431880718
+          },
+          "fov": 60
+        },
+        "camera-portrait": {
+          "x": -32.09159759953115,
+          "y": 30.205029452953895,
+          "z": 23.617434921598857,
+          "rotation": {
+            "x": -0.9071873081250578,
+            "y": -0.6968852197466504,
+            "z": -0.6873305106541068
+          },
+          "fov": 75
+        },
+        "hyperscreen":false,
+        "title": "Head-up display",
+        "headline": "Head-up display",
+        "images": ["interior/HEAD-UP_DISPLAY.jpg"],
+        "description": "With the augmented reality head-up display*, your navigation and driving information are projected onto the windscreen in front of you, so there’s no need to take your eyes off the road.",
+        "legal": ""
+  
+      },
+  
+      {
+        "id": "interior-2",
+        "type":"interior",
+        "vector": {
+          "x": 223.7,
+          "y": -2000,
+          "z": -1894
+        },
+  
+        "camera": {
+          "x": -1.9481929542222203,
+          "y": 27.521949222580734,
+          "z": 26.409029804269785,
+          "rotation":{
+            "x": -0.8060312299938176,
+            "y":-0.051031576112215746,
+            "z":-0.053109060579193866
+          },
+          "fov":75
+        },
+        "camera-portrait": {
+          "x": -2.5003772107306004,
+          "y": 26.571365692507257,
+          "z": 27.320333801751225,
+          "rotation":{
+            "x": -0.7715014056015672,
+            "y":-0.0655140949622566,
+            "z":-0.06358666228425516
+          },
+          "fov":60
+        },
+        "title": "ECONYL floor mats",
+        "headline": "ECONYL floor mats",
+        "legal": "",
+        "images": ["interior/ECONYL_FLOOR-MATS.jpg"],
+        "description": "The floor mats and the entire floor of the EQS is crafted from ECONYL – a regenerated nylon yarn that’s completely sustainable and saves over 6.5 tons of CO2 compared to traditional materials."
+      },
+      {
+        "id": "interior-3",
+        "type":"interior",
+        "vector": {
+          "x": 1679.5,
+          "y": -1100,
+          "z": -615
+        },
+  
+        "camera": {
+          "x": -33.00111908738842,
+          "y": 31.5062020126334,
+          "z": 20.45194414546316,
+          "rotation":{
+            "x": -0.9950257307613483,
+            "y":-0.7208491427315203,
+            "z":-0.7937105842728956
+          },
+          "fov": 60
+        },
+        "camera-portrait": {
+          "x": -32.09159759953115,
+          "y": 30.205029452953895,
+          "z": 23.617434921598857,
+          "rotation": {
+            "x": -0.9071873081250578,
+            "y": -0.6968852197466504,
+            "z": -0.6873305106541068
+          },
+          "fov": 75
+        },
+        "title": "Massage seats",
+        "headline": "Massage seats",
+        "images": ["interior/MASSAGE_SEATS.jpg"],
+        "description": "Enjoy the most luxurious drive and relax in the comfort of ergonomic seats with gentle massage and heating settings."
+      },
+      {
+        "id": "interior-4",
+        "type":"interior",
+        "vector": {
+          "x": 1700,
+          "y": -400,
+          "z": 3.1
+        },
+  
+        "camera": {
+          "x": -49.7236380237368,
+          "y": -1.7043400693697324,
+          "z": -4.965198692130869,
+          "rotation":{
+            "x": 2.8109373897082905,
+            "y":-1.4656110576233299,
+            "z":2.812635546048954
+          },
+          "fov": 75
+        },
+        "camera-portrait": {
+          "x": -29.82348731428984,
+          "y": 23.85477534165881,
+          "z": 0.4464278367066287,
+          "rotation": {
+            "x": -1.5520841098921854,
+            "y": -0.8960520634262502,
+            "z": -1.546834722885811
+          },
+          "fov": 75
+        },
+        "hyperscreen":true,
+        "title": "MBUX Hyperscreen",
+        "headline": "MBUX Hyperscreen ",
+        "images": ["interior/MBUX_HYPERSCREEN.jpg"],
+        "legal":"",
+        "description": "Seamlessly control every function of the new EQS with the MBUX Hyperscreen. Enclosed within a single curved glass panel that sweeps almost the entire width of the car, it’s as intelligent as it is beautiful."
+      },
+     
+      {
+        "id": "interior-5",
+        "type":"interior",
+        "vector": {
+          "x": 2000,
+          "y": -217.45,
+          "z": 1500
+        },
+  
+        "camera": {
+          "x": -45.81432262120571,
+          "y": -5.221022687143492,
+          "z": -19.333468683875537,
+          "rotation":{
+            "x": 2.8778332784819107,
+            "y":-1.1587107707520992,
+            "z":2.899020737600061
+          },
+          "fov": 75
+        },
+        "camera-portrait": {
+          "x": -29.82348731428984,
+          "y": 23.85477534165881,
+          "z": 0.4464278367066287,
+          "rotation": {
+            "x": -1.5520841098921854,
+            "y": -0.8960520634262502,
+            "z": -1.546834722885811
+          },
+          "fov": 75
+        },
+        "title": "HEPA air filter",
+        "headline": "HEPA air filter",
+        "legal": "",
+        "images": ["interior/HEPAAIR_FILTER.jpg"],
+        "description": "The High Efficiency Particulate Air filter removes 99.65% of fine dust and pollen particles from the air, creating the ideal driving environment."
+      },
+      
+      {
+        "id": "interior-6",
+        "type":"interior",
+        "vector": {
+          "x": 1700,
+          "y": 90,
+          "z": 755
+        },
+  
+        "camera": {
+          "x": -45.81432262120571,
+          "y": -5.221022687143492,
+          "z": -19.333468683875537,
+          "rotation":{
+            "x": 2.8778332784819107,
+            "y":-1.1587107707520992,
+            "z":2.899020737600061
+          },
+          "fov": 75
+        },
+        "camera-portrait": {
+          "x": -29.82348731428984,
+          "y": 23.85477534165881,
+          "z": 0.4464278367066287,
+          "rotation": {
+            "x": -1.5520841098921854,
+            "y": -0.8960520634262502,
+            "z": -1.546834722885811
+          },
+          "fov": 75
+        },
+        "title": "Individual passenger environments",
+        "headline": "Individual passenger environments",
+        "images": ["interior/INDIVIDUAL_PASSANGER-ENVIRONMENTS.jpg"],
+        "lighting": false,
+        "description": "From the in-car temperature to the ambient lighting, each passenger can adjust their personal travelling environment so every aspect of their journey is tailored to them."
+      },
+      {
+        "id": "interior-7",
+        "type":"interior",
+        "vector": {
+          "x": 620.7,
+          "y": 50,
+          "z": 2000
+        },
+  
+        "camera": {
+          "x": -20.99241396363847,
+          "y": 12.551321633549088,
+          "z": -43.60946287860487,
+          "rotation":{
+            "x": -2.861354782761642,
+            "y":-0.4332779262095111,
+            "z":-3.021338428409893
+          },
+          "fov":75
+        },
+        "camera-portrait": {
+          "x": -20.99241396363847,
+          "y": 12.551321633549088,
+          "z": -43.60946287860487,
+          "rotation":{
+            "x": -2.861354782761642,
+            "y":-0.4332779262095111,
+            "z":-3.021338428409893
+          },
+          "fov":75
+        },
+        "title": "Luxury interior",
+        "headline": "Luxury interior",
+        "images": ["interior/LUXURY_INTERIOR.jpg"],
+        "lighting": false,
+        "description": "Relax into the pillowed headrest made from ARTICO Microcloud^ or soft nappa leather upholstery and admire the stunning yacht-inspired, ship deck wood trim."
+      }, 
+      {
+        "id": "interior-8",
+        "type":"interior",
+        "vector": {
+          "x":3.1,
+          "y": -2000,
+          "z": 1250
+        },
+  
+       
+    "camera": {
+      "x": 1.3160326577368455,
+      "y": 28.909896792826572,
+      "z": -24.923401161797496,
+      "rotation":{
+        "x": -2.2822768103645164,
+        "y":0.0344644333779263,
+        "z":3.1016448145764204
+      },
+      "fov":75
+    },
+        "camera-portrait": {
+          "x": 1.3160326577368455,
+          "y": 28.909896792826572,
+          "z": -24.923401161797496,
+          "rotation":{
+            "x": -2.2822768103645164,
+            "y":0.0344644333779263,
+            "z":3.1016448145764204
+          },
+          "fov":75
+        },
+        "hyperscreen":true,
+        "title": "Bespoke in-car fragrance",
+        "headline": "Bespoke in-car fragrance",
+        "legal": "",
+        "images": ["interior/BESPOKE_IN-CAR-FRAGRANCE.jpg"],
+        "description": "Enjoy the signature scent of the EQS; No.6 MOOD Linen. Notes of green fig and fresh linen combine to create a distinctive, calming and fresh atmosphere."
+      },
+  
+      {
+        "id": "interior-9",
+        "type":"interior",
+        "vector": {
+          "x": 1700,
+          "y": -400,
+          "z": 3.1
+        },
+  
+        "camera": {
+          "x": -49.7236380237368,
+          "y": -1.7043400693697324,
+          "z": -4.965198692130869,
+          "rotation":{
+            "x": 2.8109373897082905,
+            "y":-1.4656110576233299,
+            "z":2.812635546048954
+          },
+          "fov": 75
+        },
+        "camera-portrait": {
+          "x": -29.82348731428984,
+          "y": 23.85477534165881,
+          "z": 0.4464278367066287,
+          "rotation": {
+            "x": -1.5520841098921854,
+            "y": -0.8960520634262502,
+            "z": -1.546834722885811
+          },
+          "fov": 75
+        },
+        "hyperscreen":false,
+        "title": "Central touchscreen display",
+        "headline": "Central touchscreen display",
+        "legal": "",
+        "images": ["interior/CENTRAL_TOUCHSCREEN-DISPLAY.jpg"],
+        "description": "Access the next-generation MBUX infotainment system through the high definition 12.8” OLED touchscreen – an impressive, eye-catching display that sits in the centre console of the new EQS."
+      },
+  
+      {
+        "id": "interior-10",
+        "type":"interior",
+        "vector": {
+          "x": 1061.85,
+          "y": 47,
+          "z": -218
+        },
+        "camera": {
+          "x": -36.158054503752595,
+              "y": -5.946358794828841,
+              "z": 10.766889596668143,
+              "rotation":{
+                "x": 0.5045935004715983,
+                "y":-1.2429075458784813,
+                "z":0.4817669548898986
+              },
+          "fov":75
+        },
+        "camera-portrait": {
+          "x": -36.158054503752595,
+          "y": -5.946358794828841,
+          "z": 10.766889596668143,
+          "rotation":{
+            "x": 0.5045935004715983,
+            "y":-1.2429075458784813,
+            "z":0.4817669548898986
+          },
+          "fov":75
+        },
+        
+        "title": "3D display graphics",
+        "headline": "3D display graphics",
+        "images": ["interior/3DGraphics.jpg"],
+        "description": "3D animating graphics on the driver’s display showcase useful driver information to help you judge distances, range and how economical your driving is.",
+        "legal": ""
+  
+      },
+      {
+        "id": "interior-11",
+        "type":"interior",
+        "vector": {
+          "x": 2000,
+          "y": -525,
+          "z": -1650
+        },
+  
+        "camera": {
+          "x": -31.437619537849987,
+          "y": 4.337639621451506,
+          "z": 21.24972847609603,
+          "rotation":{
+            "x": -0.20136049406719858,
+            "y":-0.9669002576428188,
+            "z":-0.16646787340258848
+          },
+          "fov": 75
+        },
+        "camera-portrait": {
+          "x": -31.437619537849987,
+          "y": 4.337639621451506,
+          "z": 21.24972847609603,
+          "rotation":{
+            "x": -0.20136049406719858,
+            "y":-0.9669002576428188,
+            "z":-0.16646787340258848
+          },
+          "fov": 75
+        },
+        "title": "Bespoke soundscapes ",
+        "headline": "Bespoke soundscapes ",
+        "legal": "",
+        "images": ["interior/BESPOKE_SOUNDSCAPES.jpg"],
+        "description": "Thanks to the all-electric motor, you can enjoy a near-silent drive. Or, if you prefer some ambient music, experience one of the three bespoke driving soundscapes that have been crafted just for the EQS."
+      }
+    ],
+
+  "exterior": [
+    
+  ]
+}
